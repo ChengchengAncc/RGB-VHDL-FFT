@@ -1,5 +1,5 @@
 # RGB-VHDL-FFT 
-![微信图片_20230621233141](https://github.com/ChengchengAncc/RGB-VHDL-FFT/assets/136725382/90e3396b-3bf0-4f0b-ac42-8216a328690d)
+![3e7cff98a0a57c3cf85c7b56dcebfcc](https://github.com/ChengchengAncc/RGB-VHDL-FFT/assets/136725382/573addaa-abfe-43a1-8348-ed01e16649c5)
 ## (English)
 # Background
 This project is a music spectrum analyzer developed using VHDL language. It utilizes the Altera Cyclone IV E series EP4CE10F17C8 chip.
