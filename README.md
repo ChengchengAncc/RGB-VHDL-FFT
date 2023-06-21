@@ -2,6 +2,8 @@
 ## (English)
 # Background
 This project is a music spectrum analyzer developed using VHDL language. It utilizes the Altera Cyclone IV E series EP4CE10F17C8 chip.
+Here is the show url:<https://www.bilibili.com/video/BV1qA41167bJ/>
+Please Q! W! E!
 ## Main features:
 1. Convert the amplitude spectrum of ambient sound to a frequency spectrum using FPGA.
 2. Support a 32x16 pixel RGB dot matrix display.
