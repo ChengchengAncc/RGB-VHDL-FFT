@@ -1,4 +1,28 @@
-# RGB-VHDL-FFT
+# RGB-VHDL-FFT 
+## (English)
+# Background
+This project is a music spectrum analyzer developed using VHDL language. It utilizes the Altera Cyclone IV E series EP4CE10F17C8 chip.
+## Main features:
+1. Convert the amplitude spectrum of ambient sound to a frequency spectrum using FPGA.
+2. Support a 32x16 pixel RGB dot matrix display.
+3. Support various types of music visualizations, such as color visualization, bar visualization, and frequency axis quantization (affects the visualization effect).
+4. Support mode switching via buttons.
+5. Support frequency range: 200Hz to 4.5KHz.
+6. Frequency axis quantization methods: Uniform quantization, logarithmic quantization (log2).
+## Hardware solution:
+1. FPGA: Altera Cyclone IV E series EP4CE10F17C8, an entry-level development board costing around 500 CNY.
+2. Microphone: INMP-441 chip, which reads the digital quantized values of ambient sound using the I2S protocol.
+3. RGB LEDs: WS2812-B (5050), a 24-bit full-color RGB chip with serial data input. Data timing is crucial, especially the low-level termination for pulling 0.
+## Software tools:
+Quartus II 18.0.
+Utilize Quartus' co-simulation feature to perform functional and timing simulations without the need to install ModelSim separately.
+# Installation & Usage:
+Download the FPGA project folder and open it in Quartus II by selecting the .qpf file. Ensure that the file path does not contain any Chinese characters, as it may cause the software to freeze during project compilation.
+The RGB LED board is provided as an EDA file by Jialichuang. If you do not intend to build it yourself, you can choose a 32x16 RGB LED matrix that meets the requirements. The LED beads should be connected in series per column.
+# Maintainers:
+Chengcheng.An
+
+## (Chinese)
 # Background
 项目为基于VHDL语言开发出的音乐频谱仪，使用Altera Cyclone IV E系列的EP4CE10F17C8芯片。
 ## 主要功能分为：
