@@ -26,7 +26,8 @@ Chengcheng.An
 
 ## (Chinese)
 # 项目背景
-项目为基于VHDL语言开发出的音乐频谱仪，使用Altera Cyclone IV E系列的EP4CE10F17C8芯片。
+项目为基于VHDL语言开发出的音乐频谱仪，使用Altera Cyclone IV E系列的EP4CE10F17C8芯片。展示视频连接如下：<https://www.bilibili.com/video/BV1qA41167bJ/>
+请点赞 投币 转发！谢谢
 ## 主要功能分为：
 1. 利用FPGA将环境音的幅度谱转为频谱
 2. 支持32*16像素的点阵RGB显示
