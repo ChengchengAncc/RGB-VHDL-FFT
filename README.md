@@ -23,7 +23,9 @@ Utilize Quartus' co-simulation feature to perform functional and timing simulati
 Download the FPGA project folder and open it in Quartus II by selecting the .qpf file. Ensure that the file path does not contain any Chinese characters, as it may cause the software to freeze during project compilation.
 The RGB LED board is provided as an EDA file by Jialichuang. If you do not intend to build it yourself, you can choose a 32x16 RGB LED matrix that meets the requirements. The LED beads should be connected in series per column.
 # Maintainers:
-Chengcheng.An
+Chengcheng.An  
+Jingyuan Qiao  
+Ying Zhou
 
 ## (Chinese)
 # 项目背景
@@ -49,6 +51,8 @@ Chengcheng.An
 2. RGB灯板为嘉立创EDA文件，若无意自制，可自选32*16-RGB灯阵即可，要求16为行数，32为列数，以列为单位进行灯珠串联
 
 # 贡献者
-Chengcheng.An
+Chengcheng An  
+Jingyuan Qiao  
+Ying Zhou
    
   
